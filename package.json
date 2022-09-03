@@ -1,0 +1,24 @@
+{
+  "name": "2022_s2_cise_assignment1b_g5_group1",
+  "version": "1.0.0",
+  "description": "This is ENSE_1B Group Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uniunt"
+  },
+  "keywords": [
+    "Assessment",
+    "1B"
+  ],
+  "author": "Li YiJun,Chaoyang,Weihong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
+
