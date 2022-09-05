@@ -1,10 +1,10 @@
-const express = require("express");
+const express = require('express');
 
-const server = express;
+const app = express();
 
-server.length('/',(req,res) =>{
-    res.send("API running")
-})
+app.get('/', (req, res) => res.send('Hello world!'));
 
-server.listen(8082, console.log("prot is ok, on PROT 8082"));
+const port = process.env.PORT || 8082;
+
+app.listen(port, () => console.log(`Server running on port ${port}`));
 
